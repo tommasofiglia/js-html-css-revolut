@@ -131,6 +131,11 @@ position: relative;
 left: 5%;
 }
 
+.funzionalita > .row li{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 /* Abbonamenti , Chi siamo e Aiuto */
 
 #submenus_navbar .funzionalita , #submenus_navbar .chisiamo , #submenus_navbar .abbonamenti , #submenus_navbar .aiuto{
@@ -150,4 +155,19 @@ left: 5%;
 
 #submenus_navbar .abbonamenti ul li , #submenus_navbar .chisiamo ul li , #submenus_navbar .aiuto ul li{
   margin-bottom: 15px;
+}
+
+#submenus_navbar .abbonamenti{
+  position: relative;
+  left: 47%;
+}
+
+#submenus_navbar .chisiamo{
+  position: relative;
+  left: 58%;
+}
+
+#submenus_navbar .aiuto{
+  position: relative;
+  left: 67%;
 }
