@@ -55,5 +55,27 @@ $(function() {
     aiutoSubmenu.hide();
   });
 
+  /***************** Implementazioni al CSS fatte attraverso JS per allenamento *************/
+
+  var buttonAccedi = $('.right-navbar > .button.bg_cleargrey');
+  var buttonScarica = $('.right-navbar > .button.bg_black')
+
+  buttonAccedi.mouseenter(function() {
+    $(this).css('background-color', '#dadbdb');
+  });
+
+  buttonAccedi.mouseleave(function() {
+    $(this).css('background-color', '#ededed');
+  });
+
+  buttonScarica.mouseenter(function() {
+    $(this).css('background-color', '#3e4043');
+  });
+
+  buttonScarica.mouseleave(function() {
+    $(this).css('background-color', 'black');
+  });
+
+
 
 });
