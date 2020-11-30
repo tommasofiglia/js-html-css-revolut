@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.inline-block{
+  display: inline-block;
+}
+
 .button{
   padding-top: 15px;
   padding-bottom: 15px;
@@ -67,16 +71,10 @@
   padding-left: 25px;
   padding-right: 25px;
 }
+/* Commons */
 
-/* Navbar */
-nav{
-  height: 100px;
-  line-height: 100px;
-}
-
-nav a{
-  font-size: 16px;
-  font-weight: 400;
+li{
+  list-style: none;
 }
 
 a:focus, a:hover {
@@ -85,8 +83,71 @@ a:focus, a:hover {
     outline: 0;
 }
 
+/* Navbar */
+nav{
+  height: 100px;
+  line-height: 100px;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav a{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
 /* Parte  destra della navbar */
 
 a.white.button:hover , a.white.button:focus{
   color: white;
+}
+
+.right-navbar a:not(.button) {
+  display: inline-block;
+}
+
+/*********** Sottomenù ***********/
+#submenus_navbar{
+  margin-top: 80px;
+  z-index: 2;
+  position: relative;
+}
+
+/* Funzionalità */
+.container-95{
+width: 95%;
+}
+
+.funzionalita > .row{
+border-radius: 7px;
+border: 1px solid lightgrey;
+position: relative;
+left: 5%;
+}
+
+/* Abbonamenti , Chi siamo e Aiuto */
+
+#submenus_navbar .funzionalita , #submenus_navbar .chisiamo , #submenus_navbar .abbonamenti , #submenus_navbar .aiuto{
+  display: none;
+}
+
+#submenus_navbar .abbonamenti , #submenus_navbar .chisiamo , #submenus_navbar .aiuto{
+  width: 160px;
+  border-radius: 7px;
+  border: 1px solid lightgrey;
+}
+
+#submenus_navbar .abbonamenti ul , #submenus_navbar .chisiamo ul , #submenus_navbar .aiuto ul{
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+#submenus_navbar .abbonamenti ul li , #submenus_navbar .chisiamo ul li , #submenus_navbar .aiuto ul li{
+  margin-bottom: 15px;
 }
