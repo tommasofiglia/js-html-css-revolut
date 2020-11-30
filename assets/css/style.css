@@ -1,0 +1,26 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Utility classes */
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg_cleargrey{
+  background-color: #ededed;
+}
+
+.bg_white{
+  background: white;
+}
+
+nav{
+  height: 100px;
+  line-height: 100px;
+}
