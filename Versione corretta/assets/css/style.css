@@ -1,0 +1,107 @@
+/* Utility  classes */
+
+.d-flex{
+  display: flex;
+}
+
+.link_grey{
+  color: #8c8e8f;
+}
+
+.link_grey:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.link_grey:focus{
+  color: black;
+  text-decoration: none;
+}
+
+.button{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 12px;
+}
+
+.button:hover{
+  text-decoration: none;
+}
+
+.mx-20{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ml-20{
+  margin-left: 20px;
+}
+
+.mr-10{
+  margin-right: 10px;
+}
+
+.mr-40{
+  margin-right: 40px;
+}
+
+.px-15{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.px-25{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* Commons */
+
+ul{
+  list-style: none;
+}
+
+/* navbar */
+
+nav{
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+/* Parte sinistra navbar */
+
+.left_navbar > ul > li , .right_navbar > ul > li {
+  display: inline-block;
+}
+
+/* Parte destra navbar */
+.accedi{
+  background-color: #ededed;
+  color: black;
+}
+
+.accedi:hover{
+  color: black;
+  background-color: #dadadb;
+}
+
+.accedi:focus{
+  color: black;
+  text-decoration: none;
+}
+
+.iscriviti{
+  background-color: black;
+  color: white;
+}
+
+.iscriviti:hover{
+  color: white;
+  background-color: #3d4043;
+}
+
+.iscriviti:focus{
+  color: white;
+  text-decoration: none;
+}
